@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etFakultasNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Fakultas" />
+
+    <Button
+        android:id="@+id/btnAddFakultas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Fakultas" />
+
+    <EditText
+        android:id="@+id/etMahasiswaNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Mahasiswa" />
+
+    <Spinner
+        android:id="@+id/spinnerFakultas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fakultas" />
+
+    <Button
+        android:id="@+id/btnAddMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Mahasiswa" />
+
+    <EditText
+        android:id="@+id/etUpdateMahasiswaNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Mahasiswa" />
+
+    <Button
+        android:id="@+id/btnUpdateMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Mahasiswa" />
+
+    <Button
+        android:id="@+id/btnDeleteMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Mahasiswa" />
+
+</LinearLayout>
